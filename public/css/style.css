@@ -176,7 +176,7 @@ body {
 }
 
 a {
-  color: var(--color-body);
+  color: var(--color-dark);
   text-decoration: none;
 }
 
@@ -200,10 +200,33 @@ a {
   transition: all 3ms ease;
   padding: 0.9375rem 2.1875rem;
 }
-.btn, .btn input {
-  overflow: hidden;
+.btn,
+.btn input {
+  overflow: visible;
 }
 
 .btn:hover {
   background-color: var(--color-secondary);
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  display: inline-flex;
+  justify-content: center;
+}
+header .header {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: center;
+}
+header .logo {
+  margin-right: 12.5rem;
+}
+
+.nav-menu ul li {
+  display: inline-block;
 }/*# sourceMappingURL=style.css.map */

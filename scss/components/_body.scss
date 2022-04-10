@@ -10,7 +10,7 @@ body {
 }
 
 a {
-  color: var(--color-body);
+  color: var(--color-dark);
   text-decoration: none;
 }
 
@@ -27,17 +27,23 @@ a {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border:none ;
+  border: none;
   border-radius: 5px;
   position: relative;
   z-index: 1;
   transition: all 3ms ease;
   padding: 0.9375rem 2.1875rem;
-  &, input{
-    overflow: hidden;
-  } 
+
+  &,
+  input {
+    overflow: visible;
+  }
 }
 
-.btn:hover{
+.btn:hover {
   background-color: var(--color-secondary);
+}
+
+ul {
+  list-style-type: none;
 }

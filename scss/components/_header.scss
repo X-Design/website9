@@ -1,0 +1,22 @@
+@use "../abstracts/"as *;
+
+header {
+  display: inline-flex;
+  justify-content: center;
+
+  & .header {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+  }
+
+  & .logo {
+    margin-right: 12.5rem;
+  }
+}
+
+.nav-menu ul li {
+  display: inline-block;
+
+}
